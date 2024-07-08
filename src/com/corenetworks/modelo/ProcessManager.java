@@ -19,4 +19,14 @@ public class ProcessManager {
         return texto;
     }
 
+    public ProcessManager() {
+    }
+
+    public static Queue<Process> getRegistroDeProcesos() {
+        return registroDeProcesos;
+    }
+
+    public static void setRegistroDeProcesos(Queue<Process> registroDeProcesos) {
+        ProcessManager.registroDeProcesos = registroDeProcesos;
+    }
 }
