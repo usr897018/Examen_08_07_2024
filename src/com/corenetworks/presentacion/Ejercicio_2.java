@@ -19,8 +19,6 @@ public class Ejercicio_2 {
             nPaginas++;
         }
         System.out.println("Se necesitan " + nPaginas + " paginas.");
-        LocalTime duracion = LocalTime.of(10, 30, 45);
-        System.out.println(duracion);
     }
 
 }
