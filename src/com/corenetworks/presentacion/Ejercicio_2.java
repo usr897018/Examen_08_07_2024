@@ -1,6 +1,9 @@
+package com.corenetworks.presentacion;
+
+import java.time.LocalTime;
 import java.util.Scanner;
 
-public class EJercicio_2 {
+public class Ejercicio_2 {
     public static void main(String[] args) {
         int sizeArchivo;
         int sizePagina;
@@ -16,6 +19,8 @@ public class EJercicio_2 {
             nPaginas++;
         }
         System.out.println("Se necesitan " + nPaginas + " paginas.");
+        LocalTime duracion = LocalTime.of(10, 30, 45);
+        System.out.println(duracion);
     }
 
 }
